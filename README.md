@@ -44,6 +44,7 @@ JWT_SECRET: jwt secret<br />
 
 SPRING_PASSWORD: spring password<br />
 SPRING_USER: spring user<br />
+SPRING_PROFILE: dev, qa, prod
 
 
 ### Example of env vars in heroku
@@ -63,5 +64,6 @@ JWT_SECRET=secret
 
 SPRING_PASSWORD=pwd
 SPRING_USER=user
+SPRING_PROFILE=dev
 ```
 
